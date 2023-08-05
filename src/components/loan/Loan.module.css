@@ -1,0 +1,37 @@
+.loan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    max-width: 758px;
+    border-radius: 20px;
+    border: 1px solid rgba(48, 50, 71, 0.1);
+    margin-top: 32px;
+}
+
+.loan+.loan {
+    margin-top: 32px;
+}
+
+.loanTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.loanText {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.loanButton {
+    cursor: pointer;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    border: none;
+    border-radius: 5px;
+    background: #f6e308;
+    font-size: 20px;
+    transition: ease-in-out 0.2s;
+}
